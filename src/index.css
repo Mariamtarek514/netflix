@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Nsans Light";
+  src: url("./assets/NetflixSans-Light.woff2");
+}
+@font-face {
+  font-family: "Nsans Medium";
+  src: url("./assets/NetflixSans-Medium.woff2");
+}
+@font-face {
+  font-family: "Nsans Regular";
+  src: url("./assets/NetflixSans-Regular.woff2");
+}
+@font-face {
+  font-family: "Nsans Bold";
+  src: url("./assets/NetflixSans-Bold.woff2");
+}
+body {
+  font-family: "Nsans Regular", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c2bfbf;
+}
